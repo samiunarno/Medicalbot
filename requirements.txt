@@ -1,0 +1,30 @@
+# Base packages
+sentence-transformers==2.2.2
+torch>=1.6.0
+transformers>=4.6.0
+scikit-learn
+numpy
+scipy
+
+# LangChain and integrations
+langchain
+langchain-community
+langchain-openai
+langchain-pinecone
+langchain-experimental
+
+# Pinecone
+pinecone-client[grpc]
+
+# Flask App
+flask
+python-dotenv
+
+# PDF parsing
+pypdf
+
+# Optional useful tools
+tqdm
+faiss-cpu  # (if you're doing vector search locally)
+
+-e .
